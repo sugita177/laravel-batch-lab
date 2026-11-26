@@ -1,0 +1,48 @@
+# ==========================================
+# Mentor / Agent local rules (MUST NOT track)
+# ==========================================
+AGENTS.md
+agents.md
+**/AGENTS.md
+**/agents.md
+
+# ==========================================
+# Laravel standard ignores
+# ==========================================
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+.phpunit.result.cache
+
+# Logs & databases
+/storage/logs/*.log
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# IDE / OS / Local tools
+# ==========================================
+.DS_Store
+Thumbs.db
+/.fleet
+/.idea
+/.vscode
+/.zed
+.phpactor.json
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+auth.json
